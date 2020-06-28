@@ -5,5 +5,5 @@ from . import views
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
 urlpatterns = [
-    path('<serverid>/<cpu>/<memory>/<disk>/',views.Resources,name='resource'),
+    path('',views.Resources,name='resource'),
 ]
